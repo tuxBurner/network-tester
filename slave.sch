@@ -1,0 +1,331 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pcb-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RJ45 J1
+U 1 1 5A103646
+P 3850 2200
+F 0 "J1" H 4050 2700 50  0000 C CNN
+F 1 "RJ45" H 3700 2700 50  0000 C CNN
+F 2 "seppels:rj45-seppel-small" H 3850 2200 50  0001 C CNN
+F 3 "" H 3850 2200 50  0001 C CNN
+	1    3850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5A104450
+P 2400 3950
+F 0 "D1" H 2400 4050 50  0000 C CNN
+F 1 "LED" H 2400 3850 50  0000 C CNN
+F 2 "LEDs:LED_D4.0mm" H 2400 3950 50  0001 C CNN
+F 3 "" H 2400 3950 50  0001 C CNN
+	1    2400 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5A10449F
+P 2400 3650
+F 0 "R1" V 2480 3650 50  0000 C CNN
+F 1 "330" V 2400 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2330 3650 50  0001 C CNN
+F 3 "" H 2400 3650 50  0001 C CNN
+	1    2400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 5A10468E
+P 3400 3950
+F 0 "D3" H 3400 4050 50  0000 C CNN
+F 1 "LED" H 3400 3850 50  0000 C CNN
+F 2 "LEDs:LED_D4.0mm" H 3400 3950 50  0001 C CNN
+F 3 "" H 3400 3950 50  0001 C CNN
+	1    3400 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5A104694
+P 3400 3650
+F 0 "R3" V 3480 3650 50  0000 C CNN
+F 1 "330" V 3400 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3330 3650 50  0001 C CNN
+F 3 "" H 3400 3650 50  0001 C CNN
+	1    3400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 5A10474B
+P 2900 3950
+F 0 "D2" H 2900 4050 50  0000 C CNN
+F 1 "LED" H 2900 3850 50  0000 C CNN
+F 2 "LEDs:LED_D4.0mm" H 2900 3950 50  0001 C CNN
+F 3 "" H 2900 3950 50  0001 C CNN
+	1    2900 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5A104751
+P 2900 3650
+F 0 "R2" V 2980 3650 50  0000 C CNN
+F 1 "330" V 2900 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2830 3650 50  0001 C CNN
+F 3 "" H 2900 3650 50  0001 C CNN
+	1    2900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 5A1047E7
+P 3800 3950
+F 0 "D4" H 3800 4050 50  0000 C CNN
+F 1 "LED" H 3800 3850 50  0000 C CNN
+F 2 "LEDs:LED_D4.0mm" H 3800 3950 50  0001 C CNN
+F 3 "" H 3800 3950 50  0001 C CNN
+	1    3800 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5A1047ED
+P 3800 3650
+F 0 "R4" V 3880 3650 50  0000 C CNN
+F 1 "330" V 3800 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3730 3650 50  0001 C CNN
+F 3 "" H 3800 3650 50  0001 C CNN
+	1    3800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D5
+U 1 1 5A104867
+P 4200 3950
+F 0 "D5" H 4200 4050 50  0000 C CNN
+F 1 "LED" H 4200 3850 50  0000 C CNN
+F 2 "LEDs:LED_D4.0mm" H 4200 3950 50  0001 C CNN
+F 3 "" H 4200 3950 50  0001 C CNN
+	1    4200 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5A10486D
+P 4200 3650
+F 0 "R5" V 4280 3650 50  0000 C CNN
+F 1 "330" V 4200 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4130 3650 50  0001 C CNN
+F 3 "" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D6
+U 1 1 5A10494B
+P 4600 3950
+F 0 "D6" H 4600 4050 50  0000 C CNN
+F 1 "LED" H 4600 3850 50  0000 C CNN
+F 2 "LEDs:LED_D4.0mm" H 4600 3950 50  0001 C CNN
+F 3 "" H 4600 3950 50  0001 C CNN
+	1    4600 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5A104951
+P 4600 3650
+F 0 "R6" V 4680 3650 50  0000 C CNN
+F 1 "330" V 4600 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4530 3650 50  0001 C CNN
+F 3 "" H 4600 3650 50  0001 C CNN
+	1    4600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D7
+U 1 1 5A104A23
+P 5000 3950
+F 0 "D7" H 5000 4050 50  0000 C CNN
+F 1 "LED" H 5000 3850 50  0000 C CNN
+F 2 "LEDs:LED_D4.0mm" H 5000 3950 50  0001 C CNN
+F 3 "" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R7
+U 1 1 5A104A29
+P 5000 3650
+F 0 "R7" V 5080 3650 50  0000 C CNN
+F 1 "330" V 5000 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 3650 50  0001 C CNN
+F 3 "" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D8
+U 1 1 5A104AFF
+P 5400 3950
+F 0 "D8" H 5400 4050 50  0000 C CNN
+F 1 "LED" H 5400 3850 50  0000 C CNN
+F 2 "LEDs:LED_D4.0mm" H 5400 3950 50  0001 C CNN
+F 3 "" H 5400 3950 50  0001 C CNN
+	1    5400 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R8
+U 1 1 5A104B05
+P 5400 3650
+F 0 "R8" V 5480 3650 50  0000 C CNN
+F 1 "330" V 5400 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5330 3650 50  0001 C CNN
+F 3 "" H 5400 3650 50  0001 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4100 2700 4100
+Wire Wire Line
+	2700 4100 2700 3500
+Wire Wire Line
+	2700 3500 2900 3500
+Wire Wire Line
+	2900 4100 3150 4100
+Wire Wire Line
+	3150 4100 3150 3500
+Wire Wire Line
+	3150 3500 3400 3500
+Wire Wire Line
+	3400 4100 3600 4100
+Wire Wire Line
+	3600 4100 3600 3500
+Wire Wire Line
+	3600 3500 3800 3500
+Wire Wire Line
+	3800 4100 4000 4100
+Wire Wire Line
+	4000 4100 4000 3500
+Wire Wire Line
+	4000 3500 4200 3500
+Wire Wire Line
+	4200 4100 4400 4100
+Wire Wire Line
+	4400 4100 4400 3500
+Wire Wire Line
+	4400 3500 4600 3500
+Wire Wire Line
+	4600 4100 4800 4100
+Wire Wire Line
+	4800 4100 4800 3500
+Wire Wire Line
+	4800 3500 5000 3500
+Wire Wire Line
+	5000 4100 5200 4100
+Wire Wire Line
+	5200 4100 5200 3500
+Wire Wire Line
+	5200 3500 5400 3500
+Wire Wire Line
+	3800 3500 3800 2650
+Wire Wire Line
+	3900 2650 3900 3450
+Wire Wire Line
+	3900 3450 4200 3450
+Wire Wire Line
+	4200 3450 4200 3500
+Wire Wire Line
+	4000 2650 4000 3400
+Wire Wire Line
+	4000 3400 4600 3400
+Wire Wire Line
+	4600 3400 4600 3500
+Wire Wire Line
+	4100 2650 4100 3350
+Wire Wire Line
+	4100 3350 5000 3350
+Wire Wire Line
+	5000 3350 5000 3500
+Wire Wire Line
+	4200 2650 4200 3250
+Wire Wire Line
+	4200 3250 5400 3250
+Wire Wire Line
+	5400 3250 5400 3500
+Wire Wire Line
+	3700 2650 3700 3400
+Wire Wire Line
+	3700 3400 3400 3400
+Wire Wire Line
+	3400 3400 3400 3500
+Wire Wire Line
+	3600 2650 3600 3350
+Wire Wire Line
+	3600 3350 2900 3350
+Wire Wire Line
+	2900 3350 2900 3500
+Wire Wire Line
+	3500 2650 3500 3300
+Wire Wire Line
+	3500 3300 2400 3300
+Wire Wire Line
+	2400 3300 2400 3500
+Wire Wire Line
+	5400 4100 5650 4100
+Wire Wire Line
+	5650 4100 5650 3050
+Wire Wire Line
+	5650 3050 4950 3050
+Wire Wire Line
+	4950 3050 4950 3350
+Connection ~ 4950 3350
+$EndSCHEMATC
